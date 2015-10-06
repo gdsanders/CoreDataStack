@@ -1,3 +1,3 @@
 # CoreDataStack
 
-Practice app that utilizes CoreData framework
+Practice app that utilizes Core Data framework
