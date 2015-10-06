@@ -12,7 +12,7 @@
 		63686B491BC3835A00984926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63686B471BC3835A00984926 /* Main.storyboard */; };
 		63686B4B1BC3835A00984926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63686B4A1BC3835A00984926 /* Assets.xcassets */; };
 		63686B4E1BC3835A00984926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63686B4C1BC3835A00984926 /* LaunchScreen.storyboard */; };
-		63686B561BC3836C00984926 /* CDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63686B551BC3836C00984926 /* CDHelper.swift */; settings = {ASSET_TAGS = (); }; };
+		63686B581BC40D0500984926 /* CDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63686B571BC40D0500984926 /* CDHelper.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		63686B4A1BC3835A00984926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63686B4D1BC3835A00984926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63686B4F1BC3835A00984926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63686B551BC3836C00984926 /* CDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CDHelper.swift; path = ../CDHelper.swift; sourceTree = "<group>"; };
+		63686B571BC40D0500984926 /* CDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				63686B431BC3835A00984926 /* AppDelegate.swift */,
 				63686B451BC3835A00984926 /* ViewController.swift */,
-				63686B551BC3836C00984926 /* CDHelper.swift */,
+				63686B571BC40D0500984926 /* CDHelper.swift */,
 				63686B471BC3835A00984926 /* Main.storyboard */,
 				63686B4A1BC3835A00984926 /* Assets.xcassets */,
 				63686B4C1BC3835A00984926 /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			files = (
 				63686B461BC3835A00984926 /* ViewController.swift in Sources */,
 				63686B441BC3835A00984926 /* AppDelegate.swift in Sources */,
-				63686B561BC3836C00984926 /* CDHelper.swift in Sources */,
+				63686B581BC40D0500984926 /* CDHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
