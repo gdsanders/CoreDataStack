@@ -19,6 +19,12 @@ class CDHelper  {
         
     }()
     
+    lazy var localStoreURL: NSURL = {
+        let url = self.storageDirectory.URLByAppendingPathComponent("CoreDataStack.sqlite")
+        return url
+    
+    }()
+    
     
     
     
