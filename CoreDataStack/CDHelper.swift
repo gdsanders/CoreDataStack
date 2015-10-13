@@ -23,7 +23,7 @@ class CDHelper  {
     }()
     
     lazy var model: NSManagedObjectModel = {
-        
-    }
+        return NSManagedObjectModel(contentsOfURL: self.modelURL)!
+    }()
     
 }
