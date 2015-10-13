@@ -11,6 +11,18 @@ import CoreData
 
 class CDHelper  {
     
+    lazy var storageDirectory: NSURL = {
+        let fm = NSFileManager.defaultManager()
+        
+        let urls = fm.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
+        return urls[urls.count - 1] as NSURL
+        
+    }()
+    
+    
+    
+    
+    
     lazy var modelURL: NSURL = {
         let bundle = NSBundle.mainBundle()
         
