@@ -11,6 +11,9 @@ import CoreData
 
 class CDHelper  {
     
+    // Singleton below
+    static let sharedInstance = CDHelper()
+    
     lazy var storageDirectory: NSURL = {
         let fm = NSFileManager.defaultManager()
         
@@ -24,10 +27,6 @@ class CDHelper  {
         return url
     
     }()
-    
-    
-    
-    
     
     lazy var modelURL: NSURL = {
         let bundle = NSBundle.mainBundle()
