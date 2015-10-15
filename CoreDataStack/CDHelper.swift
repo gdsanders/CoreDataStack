@@ -44,4 +44,16 @@ class CDHelper  {
         return NSManagedObjectModel(contentsOfURL: self.modelURL)!
     }()
     
+    lazy var coordinator: NSPersistentStoreCoordinator = {
+        let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.model)
+        
+        do {
+            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: self.localStoreURL, options: nil)
+        }catch  {
+            print("Could not add persistent store")
+            abort()
+        }
+        return coordinator
+    }()
+    
 }
